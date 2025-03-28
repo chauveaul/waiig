@@ -4,11 +4,18 @@
  <p align="center"> <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Go/go1.svg" /> </p>
 <hr>
 
->[!NOTE]
->waiig is still under development and isn't fully complete
-
 ## 🤔 How to use it
-Once you have cloned the repo, you can run ```go run main.go``` to have access to the REPL. There you can use it as a calculator, do boolean operations and even use ```let``` statements to assign integer values to variables. As of right now, there is a fully working operator precendence check and return statement implementation as well.
+Once you have cloned the repo, you can run ```go run main.go``` to have access to the REPL. 
+
+### What you can do with it
+You can do most of what you would expect from a programming language, here they are:
+- Variable decleration using `let`
+- function declaration using `let function = fn(x) { x }`
+- if, else statements
+- prints to STDOUT using `puts("Hello", " World!")`
+- Support for strings, integers, booleans, null, arrays, hashmaps etc.
+- Builtin functions such as `len()` to see the length of strings or arrays
+- Builtin functions for arrays that include `first(), last(), rest() and push()`
 
 ## 🤨 How it was made
 
